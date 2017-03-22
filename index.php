@@ -1,10 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
--=MOUZAM ALI BOT MASTER=-
-</title><link rel="stylesheet" type="text/css" href="caar.css" media="all,handheld"/><link rel="shortcut icon" href="">
+MOUZAM ALI</title><link rel="stylesheet" type="text/css" href="caar.css" media="all,handheld"/><link rel="shortcut icon" href="">
 <script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=er4ka987o0"></script>
 
-<a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2017/03/22/flamingtext_com_1490186988_312295188.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></center></h4>
-<center><object><embed src="http://www.clocktag.com/cs/m94.swf" width="200" height="200"  wmode="transparent" type="application/x-shockwave-flash"></embed></object></center>
 <?php
 error_reporting(0);
 $bot=new bot();
