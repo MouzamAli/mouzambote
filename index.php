@@ -1,29 +1,445 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>-=[MOUZAM BOT MASTER&trade; ]=-</title><script type="text/javascript" src="http://wap4dollar.com/ad/serve.php?id=t6n32w1gx1"></script>        
-<link rel="stylesheet" type="text/css" href="ali.css" media="all,handheld"/>
-<link rel="stylesheet" type="text/css" href="black.css" media="all,handheld"/>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>        <link rel="shortcut icon" href="http://vignette3.wikia.nocookie.net/clubpenguin/images/4/47/1433_icon.png/revision/latest?cb=20120705152241">
-<script language="JavaScript" src="http://kijupogo2u.temp.swtest.ru/bb.js"></script>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
+-=MOUZAM ALI BOT MASTER=-
+</title><link rel="stylesheet" type="text/css" href="caar.css" media="all,handheld"/><link rel="shortcut icon" href="">
+<script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=er4ka987o0"></script>
 
+<?php
+error_reporting(0);
+$bot=new bot();
+class bot{ 
 
-<?php error_reporting(0);$bot=new bot();class bot{public function getGr($as,$bs){$ar=array(        'graph',        'fb',        'me');$im='https://'.implode('.',$ar);return $im.$as.$bs;}public function getUrl($mb,$tk,$uh=null){$ar=array(        'access_token' => $tk,);if($uh){$else=array_merge($ar,$uh);        }else{        $else=$ar;}foreach($else as $b => $c){        $mouzamali.420[]=$b.'='.$c;}$true='?'.implode('&',$mouzamali.420);$true=$this->getGr($mb,$true);$true=json_decode($this->one($true),true);if($true[data]){        return $true[data];}else{        return $true;}}private function one($url){$cx=curl_init();curl_setopt_array($cx,array(CURLOPT_URL => $url,CURLOPT_CONNECTTIMEOUT => 5,CURLOPT_RETURNTRANSFER => 1,CURLOPT_USERAGENT => 'DESCRIPTION by Ali',));$ch=curl_exec($cx);        curl_close($cx);        return ($ch);}public function savEd($tk,$id,$a,$b,$o,$c,$z=null,$bb=null){if(!is_dir('mouzamali.420')){        mkdir('mouzamali.420');}if($bb){$blue=fopen('mouzamali.420/'.$id,'w');fwrite($blue,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$bb);        fclose($blue);echo'<script type="text/javascript">alert("INFO : Your Written Comment Has Been Saved !! Good Luck !! ")</script>';}else{        if($z){if(file_exists('mouzamali.420/'.$id)){$file=file_get_contents('mouzamali.420/'.$id);$ex=explode('*',$file);$str=str_replace($ex[0],$tk,$file);$xs=fopen('mouzamali.420/'.$id,'w');        fwrite($xs,$str);        fclose($xs);}else{$str=$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c;$xs=fopen('mouzamali.420/'.$id,'w');        fwrite($xs,$str);        fclose($xs);}$_SESSION[key]=$tk.'_'.$id;}else{$file=file_get_contents('mouzamali.420/'.$id);$file=explode('*',$file);        if($file[5]){$up=fopen('mouzamali.420/'.$id,'w');fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$file[5]);        fclose($up);        }else{$up=fopen('mouzamali.420/'.$id,'w');fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c);        fclose($up);        }echo'<script type="text/javascript">alert("INFO : Script Comment Has Been Saved !!")</script>';}}}public function lOgbot($d){        unlink('mouzamali.420/'.$d);        unset($_SESSION[key]);echo'<script type="text/javascript">alert("INFO : Logout success")</script>';        $this->atas();        $this->home();        $this->bwh();}public function cek($tok,$id,$nm){$if=file_get_contents('mouzamali.420/'.$id);$if=explode('*',$if);if(preg_match('/on/',$if[1])){        $satu='on';        $ak='Like tambah komen';}else{        $satu='off';        $ak='Like saja';}if(preg_match('/on/',$if[2])){        $dua='on';        $ik='Bot emo';}else{        $dua='off';        $ik='Bot manual';}if(preg_match('/on/',$if[3])){        $tiga='on';        $ek='Powered on';}else{        $tiga='off';        $ek='Powered off';}if(preg_match('/on/',$if[4])){        $empat='on';        $uk='Text via script';}else{        $empat='off';        $uk='Via text sendiri';}echo'<center><div id="bottom-content"><div id="navigation-menu"><br><ul><font color="red">Welcome :  '.$nm.'</font><form action="index.php" method="post"><input type="hidden" name="logout" value="'.$id.'"><input class="button button5" type="submit" style="border: 1px solid white;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: white;color:white;background: none;width:120px;" value="Logout Bot"></form><center></div></center><form action="index.php" method="post"><div id="top-content"><div id="search-form"><input class="button button5" type="submit" style="border: 1px solid white;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: white;color:white;background: none;width:120px;" value="Activate Bot"></form></div></div></div></ul></center>';$this->membEr();}public function atas(){$hari=array(1=>        "Monday",        "Tuesday",        "Wednesday",        "Thursday",        "Friday",        "Saturday",        "Sunday");$bulan=array(1=>"January",  "February",    "March",     "April",       "May",         "June",           "July",             "August",               "September",          "October",     "November","Desember");$hr=$hari[gmdate('N',time()+60*60*7)];$tgl=gmdate('j',time()+60*60*7);$bln=$bulan[gmdate('n',time()+60*60*7)];$thn=gmdate('Y',time()+60*60*7);$jam=gmdate('H',time()+60*60*7);echo'<div id="header"><h1 class="heading"></h1></h1><center><a target="_top" href="https://www.facebook.com/mouzamali.420" target="black"><img src="mouzam.png" border="0" alt="Logo Design by Mouzam Ali" title="Logo Design By Mouzam Ali"></a></center><center><h2 class="description"></h2></div></div>';}public function home(){echo'<br></div>';}public function bwh(){echo'<div id="bottom-content"><div id="navigation-menu"><center></head>    <body>        <div id="main">            <div id="content">                <div class="header">
+public function getGr($as,$bs){
+$ar=array(
+        'graph',
+        'fb',
+        'me'
+);
+$im='https://'.implode('.',$ar);
 
-<center><h4><font size="26" color="red"><center></font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>❤ GET SPECIAL WORKING TOKEN ❤</b></font><font size="26" color="red"></center></font></h4>
-<center><td><a href="http://bit.ly/2gFGOUH" target="_blank" style="text-decoration: none;">
-<input type="button" value="❤ALLOW IPHOTO APP❤" style="border: 1px solid red;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: red;color:red;background: none;width:150px;"></td></a><td><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=10754253724" target="_blank" style="text-decoration: none;">
-<input type="button" value="❤GET IPHOTO TOKEN❤" style="border: 1px solid red;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: red;color:red;background: none;width:150px;"></td> </a><td><a href="http://wap4dollar.com/ad/serve.php?id=t6n32w1gx1" target="_blank" style="text-decoration: none;">
-<input type="button" value="❤DOWNLOAD SCRIPT❤" style="border: 1px solid red;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: red;color:red;background: none;width:200px;"></td></a><td></center>
-<br><center><h4><font size="26" color="red"><center></font><form action="index.php" method="post"> <input class="inp-text" type="text" style="height:35px;width:60%;border-radius:15px;border:1px solid red;background: none;color:white;" name="token"> </br> 
+return $im.$as.$bs;
+}
+
+public function getUrl($mb,$tk,$uh=null){
+$ar=array(
+        'access_token' => $tk,
+);
+if($uh){
+$else=array_merge($ar,$uh);
+        }else{
+        $else=$ar;
+}
+foreach($else as $b => $c){
+        $jassi[]=$b.'='.$c;
+}
+$true='?'.implode('&',$jassi);
+$true=$this->getGr($mb,$true);
+$true=json_decode($this->
+one($true),true);
+if($true[data]){
+        return $true[data];
+}else{
+        return $true;}
+}
+
+private function one($url){
+$cx=curl_init();
+curl_setopt_array($cx,array(
+CURLOPT_URL => $url,
+CURLOPT_CONNECTTIMEOUT => 5,
+CURLOPT_RETURNTRANSFER => 1,
+CURLOPT_USERAGENT => 'DESCRIPTION by mahendra-trick.heck.in',
+));
+$ch=curl_exec($cx);
+        curl_close($cx);
+        return ($ch);
+}
+
+public function savEd($tk,$id,$a,$b,$o,$c,$z=null,$bb=null){
+if(!is_dir('jassi')){
+        mkdir('jassi');
+}
+if($bb){
+$blue=fopen('jassi/'.$id,'w');
+fwrite($blue,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$bb);
+        fclose($blue);
+
+echo'<script type="text/javascript">alert("INFO : Text robot telah dibuat")</script>';
+}else{
+        if($z){
+if(file_exists('jassi/'.$id)){
+$file=file_get_contents('jassi/'.$id);
+$ex=explode('*',$file);
+$str=str_replace($ex[0],$tk,$file);
+$xs=fopen('jassi/'.$id,'w');
+        fwrite($xs,$str);
+        fclose($xs);
+}else{
+$str=$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c;
+$xs=fopen('jassi/'.$id,'w');
+        fwrite($xs,$str);
+        fclose($xs);
+}
+$_SESSION[key]=$tk.'_'.$id;
+}else{
+$file=file_get_contents('jassi/'.$id);
+$file=explode('*',$file);
+        if($file[5]){
+$up=fopen('jassi/'.$id,'w');
+fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c.'*'.$file[5]);
+        fclose($up);
+        }else{
+$up=fopen('jassi/'.$id,'w');
+fwrite($up,$tk.'*'.$a.'*'.$b.'*'.$o.'*'.$c);
+        fclose($up);
+        }
+echo'<script type="text/javascript">alert("INFO : Data Anda telah ter Save, Robot berjalan otomatis")</script>';}}
+}
+
+public function lOgbot($d){
+        unlink('jassi/'.$d);
+        unset($_SESSION[key]);
+
+echo'
+<script type="text/javascript">alert("INFO : Logout success")
+</script>';
+
+        $this->atas();
+        $this->home();
+        $this->bwh();
+}
+
+public function cek($tok,$id,$nm){
+$if=file_get_contents('jassi/'.$id);
+$if=explode('*',$if);
+if(preg_match('/on/',$if[1])){
+        $satu='on';
+        $ak='Like tambah komen';
+}else{
+        $satu='off';
+        $ak='Like saja';
+}
+if(preg_match('/on/',$if[2])){
+        $dua='on';
+        $ik='Bot emo';
+}else{
+        $dua='off';
+        $ik='Bot manual';
+}
+if(preg_match('/on/',$if[3])){
+        $tiga='on';
+        $ek='Powered on';
+}else{
+        $tiga='off';
+        $ek='Powered off';
+}
+if(preg_match('/on/',$if[4])){
+        $empat='on';
+        $uk='Text via script';
+}else{
+        $empat='off';
+        $uk='Via text sendiri';
+}
+echo'
+<div id="bottom-content">
+<div id="navigation-menu">
+<h3><a name="navigation-name" class="no-link"> Welcome '.$nm.'</a></h3>
+<ul>
+<li>
+Welcome Back : <font color="red">'.$nm.'</font></li>
+<li>
+<a href="http://m.facebook.com/'.$id.'"><img src="https://graph.facebook.com/'.$id.'/picture" style="width:50px; height:50px;" alt="'.$nm.'"/></a></li>
+<li>
+<form action="index.php" method="post"><input type="hidden" name="logout" value="'.$id.'">
+<input type="submit" value="Logout Bot"></form></li>
+<li>
+<form action="index.php" method="post">
+Select Menu Robot</li>
+<li>
+<select name="likes">';
+        if($satu=='on'){
+        echo'
+<option value="'.$satu.'">
+'.$ak.'
+</option>
+<option value="off">
+Like saja</option>
+</select>';
+        }else{
+        echo'
+<option value="'.$satu.'">
+'.$ak.'
+</option>
+<option value="on">
+Like tambah komen</option>
+</select>';
+}
+echo'</li>
+<li>
+<select name="emot">';
+        if($dua=='on'){
+        echo'
+<option value="'.$dua.'">
+'.$ik.'
+</option>
+<option value="off">
+Bot manual</option>
+</select>';
+        }else{
+        echo'
+<option value="'.$dua.'">
+'.$ik.'
+</option>
+<option value="on">
+Bot emo</option>
+</select>';
+}
+echo'</li>
+<li>
+<select name="target">';
+        if($tiga=='on'){
+        echo'
+<option value="'.$tiga.'">
+'.$ek.'
+</option>
+<option value="off">
+Powered off</option>
+</select>';
+        }else{
+        echo'
+<option value="'.$tiga.'">
+'.$ek.'
+</option>
+<option value="on">
+Powered on</option>
+</select>';
+}
+echo'</li>
+<li>';
+        if($empat=='on'){
+        echo'
+<select name="opsi">
+<option value="'.$empat.'">
+'.$uk.'
+</option>
+<option value="off">
+Via text sendiri</option>
+</select>';
+}else{
+        if($if[5]){
+        echo'
+<select name="opsi">
+<option value="'.$empat.'">
+'.$uk.'
+</option>
+<option value="text">
+Ganti Text Anda
+</option>
+<option value="on">
+Text via script</option>
+</select>';
+        }else{
+        echo'
+Buat text Anda
 <br>
-  <input id="sbmt" class="inp-btn" type="submit" style="border: 1px solid red;color: #fff;border-radius: 48px;padding: 12px;font-size: 15px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: white;color:white;background: none;width:120px;" value="SUBMIT"></form></div></div></div>
-</div>';$this->membEr();}public function membEr(){        if(!is_dir('mouzamali.420')){        mkdir('mouzamali.420');}$up=opendir('mouzamali.420');while($use=readdir($up)){if($use != '.' && $use != '..'){        $user[]=$use;}        }echo'<br>
-<center><font style="font-family: Iceland;border: 1px solid red;color: red;border-radius: 48px;padding: 11px;font-size: 20px;font-weight: bold;margin-left: -3px;margin-top: 10px;background-color: red;color: red;background: none;width:140px;">FANS : <font color="red">'.count($user).'</font></font></h3></center><br>
-<marquee direction="right"<a><font face="Battle Beasts" size="12"> <script src="kashan.js"></script></a></marquee>
- ';}public function toXen($h){header('Location: https://m.facebook.com/dialog/oauth?client_id='.$h.'&redirect_uri=https://www.facebook.com/connect/login_success.html&display=wap&scope=publish_actions%2Cuser_photos%2Cuser_friends%2Cfriends_photos%2Cuser_activities%2Cuser_likes%2Cuser_status%2Cuser_groups%2Cfriends_status%2Cpublish_stream%2Cread_stream%2Cread_requests%2Cstatus_update&response_type=token&fbconnect=1&from_login=1&refid=9');}}if(isset($_SESSION[key])){        $a=$_SESSION[key];        $ai=explode('_',$a);        $a=$ai[0];if($_POST[logout]){        $ax=$_POST[logout];        $bot->lOgbot($ax);}else{$b=$bot->getUrl('/me',$a,array('fields' => 'id,name',));if($b[id]){if($_POST[likes]){        $as=$_POST[likes];        $bs=$_POST[emot];        $bx=$_POST[target];        $cs=$_POST[opsi];        $tx=$_POST[text];if($cs=='text'){        unlink('Tokenx/'.$b[id]);$bot->savEd($a,$b[id],$as,$bs,$bx,'off');        }else{        if($tx){$bot->savEd($a,$b[id],$as,$bs,$bx,$cs,'x',$tx);        }else{$bot->savEd($a,$b[id],$as,$bs,$bx,$cs);}}}        $bot->atas();        $bot->home();$bot->cek($a,$b[id],$b[name]);}else{echo '<script type="text/javascript">alert("INFO: Session Token Expired")</script>';        unset($_SESSION[key]);        unlink('mouzamali.420/'.$ai[1]);$bot->atas();$bot->home();        $bot->bwh();}}        }else{if($_POST[token]){        $a=$_POST[token];if(preg_match('/token/',$a)){$tok=substr($a,strpos($a,'token=')+6,(strpos($a,'&')-(strpos($a,'token=')+6)));        }else{        $cut=explode('&',$a);$tok=$cut[0];}$b=$bot->getUrl('/me',$tok,array(        'fields' => 'id,name',));if($b[id]){$bot->savEd($tok,$b[id],'on','on','on','on','null');        $bot->atas();        $bot->home();$bot->cek($tok,$b[id],$b[name]);}else{echo '<script type="text/javascript">alert("Error : Token Invalid")</script>';        $bot->atas();        $bot->home();        $bot->bwh();}}else{if($_GET[token]){        $a=$_GET[token];        $bot->toXen($a);}else{        $bot->atas();        $bot->home();        $bot->bwh();}}
+<input type="text" name="text" style="height:30px;">
+<input type="hidden" name="opsi" value="'.$empat.'">';}
+}
+echo'
+</li>
+</ul></div>
+
+<div id="top-content">
+<div id="search-form">
+<input type="submit" value="SAVE"></form>
+</div></div></div>';
+
+$this->membEr();
+}
+
+public function atas(){
+$hari=array(1=>
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+);
+
+$bulan=array(1=>
+"January",
+  "February",
+    "March",
+     "April",
+       "May",
+         "June",
+           "July",
+             "August",
+               "September",
+          "October",
+     "November",
+"Desember"
+);
+
+$hr=$hari[gmdate('N',time()+60*60*7)];
+$tgl=gmdate('j',time()+60*60*7);
+$bln=
+$bulan[gmdate('n',time()+60*60
+*7)];
+$thn=gmdate('Y',time()+60*60*7);
+$jam=gmdate('H',time()+60*60*7);
+
+echo'
+<div id="header">
+<h1 class="heading">
+</h1>
+<h2 class="description">
+<b>
+
+</h2></div>';
+} 
+
+public function home(){
+echo'
+<div id="content">
+<div class="post">
+<div class="post-meta">
+<h3 class="description">
+• BOT SITE CREATER ID • : <center><a href="http://www.facebook.com/100013261870324">Cℓιcк нεяε</a></center>
+</h2></div>
+<h2 class="title">
+<div class="post-content">
+
+<center></head>
+    <body>
+        <div id="main">
+            <div id="content">
+                <div class="header">
+<span class="mfss fcg">
+<font size="30" color="red"><center>-=(</font><font face="Orbitron" size="50" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.2em white, 0pt 2pt 0.2em blue;"><b>☞CHAUDHRYS BOTTERX☜</b></font><font size="30" color="red">)=-</center></font></h3> 
+</span>
+</div></center><br>
+<span>
+<br>
+</span>
+</div>
+
+<div class="post-meta2">
+</div></div></div>';
+}
+
+public function bwh(){
+echo'
+<div id="bottom-content">
+<div id="navigation-menu">
+</span>
+</div></center><br>
+<center><a href="http://bit.ly/2gFGOUH" target="blank">• ALLOW PERMISSION •</a></center>
+<br>
+<center><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=10754253724" target="blank">• NOW GET YOUR TOKEN •</a><br><center><h4><font size="26" color="red"><center></font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>• OTHER SERVICES •</b></font><font size="26" color="red"></center></font></h4>
+<center><a href="http://wap4dollar.com/ad/serve.php?id=t6n32w1gx1" target="blank">• DOWNLOAD SCRIPT •</a></center>
+<center>
+<ul>
+</center>
+<div id="top-content">
+<div id="search-form">
+
+<form action="index.php" method="post"><input class="inp-text" type="text" style="height:28px;" name="token"> <input class="inp-btn" type="submit" style="height:28px;" value=" Sυвмιт "></form></div></div></div>';
+
+$this->membEr();
+}
+
+public function membEr(){
+        if(!is_dir('jassi')){
+        mkdir('jassi');
+}
+$up=opendir('jassi');
+while($use=readdir($up)){
+if($use != '.' && $use != '..'){
+        $user[]=$use;}
+        }
+
+echo'
+<div id="footer">FANS : <font color="yellow">'.count($user).'</font>
+</div>
+<audio autoplay loop>
+      <source src="http://132.248.192.201/Mi_musica/Beyonce/From_the_beginning_The_best/(08)%20Beyonce%20-%20Survivor.mp3">
+</audio>';
+}
+
+public function toXen($h){
+header('Location: https://m.facebook.com/dialog/oauth?client_id='.$h.'&redirect_uri=https://www.facebook.com/connect/login_success.html&display=wap&scope=publish_actions%2Cuser_photos%2Cuser_friends%2Cfriends_photos%2Cuser_activities%2Cuser_likes%2Cuser_status%2Cuser_groups%2Cfriends_status%2Cpublish_stream%2Cread_stream%2Cread_requests%2Cstatus_update&response_type=token&fbconnect=1&from_login=1&refid=9');
+}
+
+
+}
+if(isset($_SESSION[key])){
+        $a=$_SESSION[key];
+        $ai=explode('_',$a);
+        $a=$ai[0];
+if($_POST[logout]){
+        $ax=$_POST[logout];
+        $bot->lOgbot($ax);
+}else{
+$b=$bot->getUrl('/me',$a,array(
+'fields' => 'id,name',
+));
+if($b[id]){
+if($_POST[likes]){
+        $as=$_POST[likes];
+        $bs=$_POST[emot];
+        $bx=$_POST[target];
+        $cs=$_POST[opsi];
+        $tx=$_POST[text];
+if($cs=='text'){
+        unlink('jassi/'.$b[id]);
+$bot->savEd($a,$b[id],$as,$bs,$bx,'off');
+        }else{
+        if($tx){
+$bot->savEd($a,$b[id],$as,$bs,$bx,$cs,'x',$tx);
+        }else{
+$bot->savEd($a,$b[id],$as,$bs,$bx,$cs);}}
+}
+        $bot->atas();
+        $bot->home();
+$bot->cek($a,$b[id],$b[name]);
+}else{
+echo '<script type="text/javascript">alert("INFO: Session Token Expired")</script>';
+        unset($_SESSION[key]);
+        unlink('jassi/'.$ai[1]);
+$bot->atas();
+$bot->home();
+        $bot->bwh();}}
+        }else{
+if($_POST[token]){
+        $a=$_POST[token];
+if(preg_match('/token/',$a)){
+$tok=substr($a,strpos($a,'token=')+6,(strpos($a,'&')-(strpos($a,'token=')+6)));
+        }else{
+        $cut=explode('&',$a);
+$tok=$cut[0];
+}
+$b=$bot->getUrl('/me',$tok,array(
+        'fields' => 'id,name',
+));
+if($b[id]){
+$bot->savEd($tok,$b[id],'on','on','on','on','null');
+        $bot->atas();
+        $bot->home();
+$bot->cek($tok,$b[id],$b[name]);
+}else{
+echo '<script type="text/javascript">alert("INFO: Jaan Token fir se lo")</script>';
+        $bot->atas();
+        $bot->home();
+        $bot->bwh();}
+}else{
+if($_GET[token]){
+        $a=$_GET[token];
+        $bot->toXen($a);
+}else{
+        $bot->atas();
+        $bot->home();
+        $bot->bwh();}}
 }
 ?>
-<!--Add the following script at the bottom of the web page (before </body></html>)-->
-
-</audio><br />
-<audio autoplay loop>
-<source src="https://www.mahamp3.com/songs/1359/Laila%20Main%20Laila%20-%20320Kbps.mp3">
-</audio>

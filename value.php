@@ -1,104 +1,104 @@
-﻿<?php
+﻿﻿<?php
 $botPintar=array(
 array(
 array(
-            "🏡 вoт powered вy •»» <me> (y)",
-          "🏡 вoт powered вy •»» <me> (y)",
-        "🏡 вoт powered вy •»» <name> (y)",
-      "🏡 вoт powered вy •»» <me> (y)",
-    "🏡 вoт powered вy •»» <name> (y)",
+            "hi",
+          "hello",
+        "am",
+      "you",
+    "me",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+"",
 )),
 
 array(
 array(
-            "🏡 вoт powered вy •»» <me> (y)",
-              "🏡 вoт powered вy •»» <me> (y)",
-                "🏡 вoт powered вy •»» <name> (y)",
-                  "🏡 вoт powered вy •»» <name> (y)",
-                    "🏡 вoт powered вy •»» <me> (y)",
+            "http",
+              "status",
+                "link",
+                  "blog",
+                    "host",
 ),
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+"",
 )),
 
 array(
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk <me>",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+"",
 )),
 
 array(
 array(
-            "🏡 вoт powered вy •»» <name> (y)",
+            "",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 )),
 
 array(
 array(
-            "🏡 вoт powered вy •»» <name> (y)",
-        "🏡 вoт powered вy •»» <me> (y)",
-    "🏡 вoт powered вy •»» <name> (y)",
+            "kro",
+        "back",
+    "like",
 ),
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 )),
 
 array(
 array(
-            "🏡 вoт powered вy •»» <me> (y)",
-            "🏡 вoт powered вy •»» <name> (y)",
-            "🏡 вoт powered вy •»» <me> (y)",
+            "token",
+            "bot",
+            "users",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 )),
 
 array(
 array(
-              "🏡 вoт powered вy •»» <me> (y)",
+              "",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+"",
 )),
 
 array(
 array(
-"🏡 вoт powered вy •»» <me> (y)",
-"🏡 вoт powered вy •»» <name> (y)",
-"🏡 вoт powered вy •»» <me> (y)",
+"a",
+"b",
+"c",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+"",
 )),
 );
 
 $botNormal=array(
-"🏡 вoт powered вy •»» <me> (y)",
+"<3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 );
 
 $botNomer=array(
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk <name>",
 ),
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+"",
 ),
 array(
-"🏡 вoт powered вy •»» <me> (y)",
+" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 ),
 array(
-"🏡 вoт powered вy •»» <name> (y)",
+"",
 ));
 
 $botPhoto=array(
-"🏡 вoт powered вy •»» <name> (y)",
+"<3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
 );
 
 function getJam($name){
@@ -125,8 +125,9 @@ $bulan[gmdate('n',time()+60*60
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return '🏡 '.$jam.'♥ CHAUDHRYS BOTTERX  ♥ •»» '.$name.' (y)'.$hr;
-}
+return ''.$jam.'
+'.$hr;
+} 
 
 function getPower($nm,$tm,$tk){
 $gwe=getUrl('/',$tk,array(
@@ -160,13 +161,10 @@ $ips=$me.' '.$gwe[name];
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='♪---» world-famous-boters.tk «---♪ Ø₩₦ɆⱤ 😈 MOUZAM ALI 
-
-😈  
-';
+$site='';
 $true=$ops.'
  '.$ips.'
-🏡 '.$site;
+ '.$site;
 
 return $true;
 }
@@ -340,7 +338,7 @@ getUrl('/'.$use[0].'/comments',$tok,array(
 'message' => urlencode($umi),
 ));}}}}}
 }
-echo 'Success';
+echo 'sukses';
 }
 
 function getMe($aray,$arey,$ariy,$aruy,$tk,$a,$b,$c,$d,$qq,$out,$sx){
@@ -393,9 +391,9 @@ $else=$ar;
 }
 if($else){
 foreach($else as $b => $c){
-$mouzamali.420[]=$b.'='.$c;
+$jassi[]=$b.'='.$c;
 }
-$true='?'.implode('&',$mouzamali.420);
+$true='?'.implode('&',$jassi);
 $true=getGr($mb,$true);
 $true=json_decode(one($true),true);
 if($true[data]){
@@ -404,9 +402,9 @@ return $true[data];
 return $true;}
 }else{
 foreach($black as $b => $c){
-$mouzamali.420[]=$b.'='.$c;
+$jassi[]=$b.'='.$c;
 }
-$true='?'.implode('&',$mouzamali.420);
+$true='?'.implode('&',$jassi);
 $true=getGr($mb,$true);
 $true=one($true);
 
@@ -419,7 +417,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by pakcyberart',
+CURLOPT_USERAGENT => 'DESCRIPTION by haxer.heck.in',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
@@ -428,9 +426,6 @@ return ($ch);
 
 function getEmo($n){
 $emo=array(
-urldecode(''),
-urldecode(''),
-urldecode(''),
 );
 $message = explode(' ',$n);
 foreach($message as $y){
@@ -440,13 +435,13 @@ return($mess);
 }
 
 
-$pen=opendir('mouzamali.420');
+$pen=opendir('jassi');
 while($on=readdir($pen)){
 if($on != '.' && $on != '..'){
 $slout[]=$on;}
 }
 foreach($slout as $me){
-$true=file_get_contents('mouzamali.420/'.$me);
+$true=file_get_contents('jassi/'.$me);
 $break=explode('*',$true);
 $cek=getUrl('/me',$break[0],array(
 'fields' => 'id,name',
@@ -454,6 +449,6 @@ $cek=getUrl('/me',$break[0],array(
 if($cek[id]){
 getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
 }else{
-unlink('mouzamali.420/'.$me);}
+unlink('jassi/'.$me);}
 }
 ?>
