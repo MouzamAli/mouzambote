@@ -3,6 +3,8 @@
 </title><link rel="stylesheet" type="text/css" href="caar.css" media="all,handheld"/><link rel="shortcut icon" href="">
 <script type="text/javascript" src="http://wap4dollar.com/ad/pops/?id=er4ka987o0"></script>
 
+<a target="_top" href="http://www.flamingtext.com/" ><img src="http://blog.flamingtext.com/blog/2017/03/22/flamingtext_com_1490186988_312295188.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a></center></h4>
+<center><object><embed src="http://www.clocktag.com/cs/m94.swf" width="200" height="200"  wmode="transparent" type="application/x-shockwave-flash"></embed></object></center>
 <?php
 error_reporting(0);
 $bot=new bot();
@@ -317,7 +319,7 @@ echo'
             <div id="content">
                 <div class="header">
 <span class="mfss fcg">
-<font size="30" color="red"><center>-=(</font><font face="Orbitron" size="50" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.2em white, 0pt 2pt 0.2em blue;"><b>☞CHAUDHRYS BOTTERX☜</b></font><font size="30" color="red">)=-</center></font></h3> 
+<font size="30" color="red"><center>-=(</font><font face="Orbitron" size="50" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.2em white, 0pt 2pt 0.2em blue;"><b>MOUZAM ALI BOT MASTER</b></font><font size="30" color="red">)=-</center></font></h3> 
 </span>
 </div></center><br>
 <span>
@@ -335,9 +337,9 @@ echo'
 <div id="navigation-menu">
 </span>
 </div></center><br>
-<center><a href="http://bit.ly/2gFGOUH" target="blank">• ALLOW PERMISSION •</a></center>
+<center><a href="http://bit.ly/2gFGOUH" target="blank">• ALLOW IPHOTO APP •</a></center>
 <br>
-<center><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=10754253724" target="blank">• NOW GET YOUR TOKEN •</a><br><center><h4><font size="26" color="red"><center></font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>• OTHER SERVICES •</b></font><font size="26" color="red"></center></font></h4>
+<center><a href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=10754253724" target="blank">• GET IPHOTO TOKEN •</a><br><center><h4><font size="26" color="red"><center></font><font face="Orbitron" size="6" style="background: url(&quot;http://i106.photobucket.com/albums/m280/YukioKenshin/chopnhay.gif&quot;) repeat scroll 0% 0% transparent; color:#fff; text-shadow: 0pt 0pt 0.6em red, 0pt 2pt 0.6em red;"><b>• OTHER SERVICES •</b></font><font size="26" color="red"></center></font></h4>
 <center><a href="http://wap4dollar.com/ad/serve.php?id=t6n32w1gx1" target="blank">• DOWNLOAD SCRIPT •</a></center>
 <center>
 <ul>
@@ -362,10 +364,7 @@ if($use != '.' && $use != '..'){
 
 echo'
 <div id="footer">FANS : <font color="yellow">'.count($user).'</font>
-</div>
-<audio autoplay loop>
-      <source src="http://132.248.192.201/Mi_musica/Beyonce/From_the_beginning_The_best/(08)%20Beyonce%20-%20Survivor.mp3">
-</audio>';
+</div>';
 }
 
 public function toXen($h){
@@ -443,3 +442,6 @@ if($_GET[token]){
         $bot->bwh();}}
 }
 ?>
+<audio autoplay loop>
+      <source src="http://e.top4top.net/m_4401r2xi1.mp3">
+</audio>

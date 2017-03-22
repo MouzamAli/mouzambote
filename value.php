@@ -26,7 +26,7 @@ array(
 
 array(
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk <me>",
+"  🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me>",
 ),
 array(
 "",
@@ -37,7 +37,7 @@ array(
             "",
 ),
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+"  🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 )),
 
 array(
@@ -47,7 +47,7 @@ array(
     "like",
 ),
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+"  🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 )),
 
 array(
@@ -57,7 +57,7 @@ array(
             "users",
 ),
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+"  🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 )),
 
 array(
@@ -80,25 +80,25 @@ array(
 );
 
 $botNormal=array(
-"<3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+" 🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 );
 
 $botNomer=array(
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk <name>",
+"  🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> <name>",
 ),
 array(
 "",
 ),
 array(
-" <3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+" 🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 ),
 array(
 "",
 ));
 
 $botPhoto=array(
-"<3 CHAUDHRYS BOTTERX <3 OWNER <3 MOUZAM ALI <3 ENJOY SITE 😎 world-famous-boters.tk ",
+" 🎭 C h α υ δ h r ψ s 💘 β ο τ τ ε r X 🎭  SITE 😎 world-famous-boters.tk <me> ",
 );
 
 function getJam($name){
